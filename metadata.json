@@ -1,0 +1,6 @@
+{
+  "name": "Bullet Hisab Book",
+  "description": "सरल हिंदी पर्सनल आमदनी और खर्च डायरी — Bullet Hisab Book",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

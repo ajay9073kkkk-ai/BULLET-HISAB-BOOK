@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">Bullet Hisab Book</string>
+    <string name="app_subtitle">मेरा सरल आमदनी व खर्च बही-खाता</string>
+
+    <!-- Navigation -->
+    <string name="nav_dashboard">होम</string>
+    <string name="nav_history">हिसाब</string>
+    <string name="nav_reports">रिपोर्ट</string>
+    <string name="nav_settings">सेटिंग्स</string>
+
+    <!-- Dashboard -->
+    <string name="current_balance">बची हुई रकम</string>
+    <string name="opening_balance">शुरुआती बैलेंस</string>
+    <string name="total_income">कुल आमदनी</string>
+    <string name="total_expense">कुल खर्च</string>
+    <string name="today_summary">आज का हिसाब</string>
+    <string name="monthly_summary">इस महीने का हिसाब</string>
+    <string name="add_income">आमदनी जोड़ें</string>
+    <string name="add_expense">खर्च जोड़ें</string>
+    <string name="recent_entries">हाल की एंट्री</string>
+    <string name="view_all">सभी देखें</string>
+    <string name="set_opening_balance">शुरुआती बैलेंस बदलें</string>
+
+    <!-- Empty States -->
+    <string name="empty_ledger_title">हिसाब डायरी खाली है</string>
+    <string name="empty_ledger_message">आपकी डायरी में अभी कोई एंट्री नहीं है। ऊपर दिए बटन से पहली आमदनी या खर्च जोड़ें।</string>
+    <string name="empty_filter_message">चुने गए फ़िल्टर के अनुसार कोई एंट्री नहीं मिली।</string>
+    <string name="empty_report_message">इस अवधि में कोई आमदनी या खर्च दर्ज नहीं है।</string>
+
+    <!-- Transaction Form -->
+    <string name="edit_income">आमदनी बदलें</string>
+    <string name="edit_expense">खर्च बदलें</string>
+    <string name="label_amount">रकम (₹ में)</string>
+    <string name="label_date">तारीख</string>
+    <string name="label_source_person">किससे पैसा आया</string>
+    <string name="label_paid_to">किसको / दुकान का नाम</string>
+    <string name="label_category">श्रेणी चुनें</string>
+    <string name="label_notes">विवरण / नोट्स</string>
+    <string name="save_transaction">हिसाब सेव करें</string>
+    <string name="update_transaction">बदलाव सेव करें</string>
+    <string name="cancel">रद्द करें</string>
+
+    <!-- Validation & Feedback -->
+    <string name="error_invalid_amount">कृपया सही रकम दर्ज करें (0 से अधिक)</string>
+    <string name="error_negative_opening">शुरुआती बैलेंस 0 या उससे अधिक होना चाहिए</string>
+    <string name="error_party_required">कृपया नाम दर्ज करें</string>
+    <string name="msg_income_saved">आमदनी सफलतापूर्वक सेव हुई</string>
+    <string name="msg_expense_saved">खर्च सफलतापूर्वक सेव हुआ</string>
+    <string name="msg_entry_updated">एंट्री अपडेट हो गई</string>
+    <string name="msg_entry_deleted">एंट्री हटा दी गई</string>
+    <string name="msg_opening_saved">शुरुआती बैलेंस अपडेट हो गया</string>
+
+    <!-- Delete Confirmation -->
+    <string name="delete_confirm_title">एंट्री हटाएं?</string>
+    <string name="delete_confirm_message">क्या आप वाकई इस एंट्री को हटाना चाहते हैं? हटाने के बाद बैलेंस अपने आप सही हो जाएगा।</string>
+    <string name="delete_action">हाँ, हटाएं</string>
+
+    <!-- History & Filter -->
+    <string name="search_hint">नाम, विवरण या श्रेणी खोजें...</string>
+    <string name="filter_all">सभी</string>
+    <string name="filter_income">आमदनी</string>
+    <string name="filter_expense">खर्च</string>
+    <string name="clear_filters">फ़िल्टर हटाएं</string>
+    <string name="balance_after_label">बचा बैलेंस:</string>
+
+    <!-- Reports -->
+    <string name="report_daily">दैनिक</string>
+    <string name="report_weekly">साप्ताहिक</string>
+    <string name="report_monthly">मासिक</string>
+    <string name="total_received">कुल प्राप्त</string>
+    <string name="total_spent">कुल खर्च</string>
+    <string name="remaining_balance">शेष बचत</string>
+    <string name="chart_title">आमदनी बनाम खर्च चार्ट</string>
+    <string name="category_breakdown">श्रेणी के अनुसार खर्च</string>
+
+    <!-- Settings & Backup -->
+    <string name="backup_section_title">बैकअप और रीस्टोर</string>
+    <string name="export_json">JSON बैकअप डाउनलोड करें</string>
+    <string name="export_csv">CSV (Excel) डाउनलोड करें</string>
+    <string name="import_backup">बैकअप से रीस्टोर करें (JSON / CSV)</string>
+    <string name="clear_all_data">सभी डेटा साफ़ करें</string>
+    <string name="privacy_title">प्राइवेसी और सुरक्षा</string>
+    <string name="privacy_desc">आपका पूरा हिसाब केवल आपके फ़ोन में सुरक्षित रहता है। किसी लॉगिन या इंटरनेट की आवश्यकता नहीं है।</string>
+</resources>
